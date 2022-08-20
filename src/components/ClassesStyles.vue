@@ -46,7 +46,7 @@ const togglePurchased = (item) => {
 </script>
 
 <template>
-<h1>Classes and styles</h1>
+  <h1>Classes and styles</h1>
   <div class="header">
     <h2>{{ header }}</h2>
     <button v-if="editing" class="btn" @click="doEdit(false)">Cancel</button>

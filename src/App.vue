@@ -3,6 +3,7 @@
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import Computed from './components/Computed.vue';
 import ClassesStyles from './components/ClassesStyles.vue';
+import Todos from './components/Todos.vue';
 </script>
 
 <template>
@@ -19,6 +20,9 @@ import ClassesStyles from './components/ClassesStyles.vue';
   <hr />
   <hr />
   <ClassesStyles />
+  <hr />
+  <hr />
+  <Todos />
 </template>
 
 <style scoped>
