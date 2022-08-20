@@ -2,6 +2,7 @@
 // This starter template is using Vue 3 <script setup> SFCs
 // Check out https://vuejs.org/api/sfc-script-setup.html#script-setup
 import Computed from './components/Computed.vue';
+import ClassesStyles from './components/ClassesStyles.vue';
 </script>
 
 <template>
@@ -14,6 +15,10 @@ import Computed from './components/Computed.vue';
     </a>
   </div>
   <Computed />
+
+  <hr />
+  <hr />
+  <ClassesStyles />
 </template>
 
 <style scoped>

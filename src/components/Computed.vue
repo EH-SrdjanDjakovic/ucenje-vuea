@@ -33,6 +33,7 @@ fullName.value = 'Vladimir Putin';
 </script>
 
 <template>
+  <h1>Computed</h1>
   <p>Has published books:</p>
   <span>{{ publishedBooksMessage }}</span>
   <hr />
