@@ -30,6 +30,7 @@ function addNewTodo() {
 </script>
 
 <template>
+  <h1>V-for sa eventom</h1>
   <form v-on:submit.prevent="addNewTodo">
     <label for="new-todo">Add a todo</label>
     <input

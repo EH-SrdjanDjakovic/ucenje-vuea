@@ -4,6 +4,7 @@
 import Computed from './components/Computed.vue';
 import ClassesStyles from './components/ClassesStyles.vue';
 import Todos from './components/Todos.vue';
+import Watchers from './components/Watchers.vue';
 </script>
 
 <template>
@@ -23,6 +24,9 @@ import Todos from './components/Todos.vue';
   <hr />
   <hr />
   <Todos />
+  <hr />
+  <hr />
+  <Watchers />
 </template>
 
 <style scoped>
